@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/background1);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#navbar{
+    background-color: rgb(15, 13, 13);
+}
+#QuickFood-logo{
+    margin: 60px 480px;
+}
+.fa-shopping-basket{
+    color: white;
+    float: right;
+    margin-top: -130px;
+}
+.cart-txt{
+    color: whitesmoke;
+    float: right;
+    margin-top: -120px;
+
+}
+.fa-mobile-alt{
+    color: white;
+    float: left;
+    margin-top: -130px;
+}
+.num-txt{
+    color: whitesmoke;
+    float: left;
+    margin-top: -120px;
+
+}
+.num{
+    margin-left: 30px;
+}
+#content{
+    overflow: hidden;
+    background-color: transparent;
+    list-style-type: none;
+}
+#li{
+    float: left;
+    font-family: 'Pirata One', cursive;
+    font-size: 30px;
+    padding-bottom: 10px;
+box-shadow: 15px 1px 13px -6px #FFFFFF;
+}
+#li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 50px;
+}
+.active{
+    margin-left: 300px;
+    border-bottom: 1px solid wheat;
+}
+#navbar{
+    padding-bottom: 10px;
+}
